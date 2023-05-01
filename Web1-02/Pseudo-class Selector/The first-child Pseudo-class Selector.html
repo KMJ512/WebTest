@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The first-child Pseudo-class Selector</title>
+</head>
+<style>
+    p:first-child {/*container에서 첫번째 p element */
+        color:blue
+    }
+    p:first-child i{/* container에서 첫번째 p element에서 descendant 관계의 i tag */
+        color: red
+    }
+    p i:first-child { /* p element와 descendant 관계의 i tag 중 첫번째 element */
+        color:hotpink
+    }
+    p i:hover {
+        background-color: yellowgreen
+    }
+
+</style>
+<body>
+<h1>The first-child Pseudo-class</h1>
+<hr>
+<article>
+    <p><i>first italic text</i>, <i>second italic text</i> @ article 1st p</p>
+    <p><i>first italic text</i>, <i>second italic text</i> @ article 2nd p</p>
+</article>
+<div>
+    <p><i>first italic text</i>, <i>second italic text</i> @div 1st p</p>
+    <p><i>first italic text</i>, <i>second italic text</i> @div 2nd p</p>
+</div>
+</body>
+</html>

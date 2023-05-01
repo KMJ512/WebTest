@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first-line Selector</title>
+</head>
+<style>
+  p::first-letter{
+    color:#ff0000;
+    font-size:xx-large;
+  }
+  p::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+  }
+</style>
+<body>
+  <h1>The CSS ::first-line Pseudo-element</h1>
+  <hr>
+  <p>You can combine<br> the ::first-letter and ::first-line pseudo-elements to add a
+  special effect to the first letter and the first line of a text!</p>
+  <section><p>Several pseudo-elements can also be combined.</p></section>
+  <div>
+    <p>In the example, the first letter of a paragraph will be red, in an xx-large font size.
+    The rest of the first line will be blue, and in small-caps. The rest of the paragraph will be the default font size
+      and color</p>
+  </div>
+</body>
+</html>

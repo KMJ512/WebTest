@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The nth-child Pseudo-class Selector</title>
+</head>
+<style>
+    div:nth-child(2) {background:orange;} /* div의 2번째 */
+    li:nth-child(2n){background: lightgreen;} /*li의 짝수번째 */
+    :nth-child(3){background: lightgray;} /*모든 element의 3번째 */
+</style>
+<body>
+    <div><p>This is some text.</p></div>
+    <div><p>This is some text.</p></div>
+    <div><p>This is some text.</p></div>
+
+    <ul>
+        <li>(1) list item</li>
+        <li>(2) list item</li>
+        <li>(3) list item</li>
+        <li>(4) list item</li>
+        <li>(5) list item</li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>attribute Selector</title>
+</head>
+<style>
+  a[target]
+  {
+    background-color: yellow;
+  }
+  a[target="_blank"]{
+  background-color:cyan;
+  }
+</style>
+<body>
+  <h1>CSS [attribute] Selector</h1>
+  <hr>
+  <p>The links with a target attribute gets a yellow background:</p>
+  <a href="https://www.naver.com">naver.com</a><br>
+  <a href="https://www.kakao.com" target="_blank">kakao.com</a><br>
+  <a href="https://www.google.com" target="_top">google.com</a>
+</body>
+</html>

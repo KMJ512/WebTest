@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class Selector</title>
+    <style>
+        .all-center {
+            text-align: center;
+            color: red;
+        }
+        p.center{
+            text-align: center;
+            color: red;
+        }
+        div.center{
+            text-align: center;
+            color: blue;
+        }
+        .large {
+            font-size: 200%;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="all-center">class Selector</h1>
+    <hr>
+    <p class="all-center">
+        The class selector selects HTML elements with
+        a specific class attribute.
+    </p>
+    <div class="all-center" style="background-color:black; color:white">
+        To select elements with a <span style="color:yellow">specific class</span>, write a period (.) character,
+        followed by the class name.
+    </div>
+    <p class="center large"> <!--multi class-->
+        The class selector selects HTML elements with a
+        specific class attribute.
+    </p>
+    <div class="large">
+        To select elements with a specific class, write a period (.) character, followed by
+        the class name.
+    </div>
+</body>
+</html>
